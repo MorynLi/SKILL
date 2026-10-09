@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628" role="img" aria-label="feynman-technique — SIN feynman-technique: El fallo es de CORS: política de mismo origen. El navegador hace una solicitud de verificación previa. La respuesta no incluye Access-Control-Allow-Origin. Por eso el navegador descarta la respuesta. Propongo añadir un middleware de CORS en la API. Ahí configuro el origen permitido y los métodos. ¿Añado el middleware de CORS con el origen permitido? — CON feynman-technique: Tu código no falló. Lo bloqueó el navegador. La petición salió y la respuesta llegó de vuelta. El navegador la recibió y no te la entregó. Puede que estés logueado en ese otro servidor. Sin esa regla, cualquier pestaña leería tus datos. El otro servidor tiene que nombrar tu dominio. Nunca lo nombró, así que el navegador corta. En Postman funciona. En curl también. Aquí no. Postman no protege a nadie. El navegador sí: a ti. Voy a hacer que el servidor nombre tu dominio. ¿Le digo al servidor que tu dominio es bienvenido?">
+  <defs>
+    <style>
+      .body { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="628" fill="#171614"/>
+  <text x="72" y="46" font-size="19" fill="#e9e6df" text-anchor="start" class="body" font-weight="700">Técnica de Feynman</text>
+  <text x="1128" y="46" font-size="12" fill="#5b5850" text-anchor="end" class="mono" letter-spacing="3.2">UN AGENT SKILL</text>
+  <line x1="72" y1="70" x2="1128" y2="70" stroke="#2a2823" stroke-width="1"/>
+  <rect x="72" y="92" width="1056" height="61" rx="10" fill="#262624" stroke="#37352f" stroke-width="1"/>
+  <text x="94" y="127" font-size="15" fill="#d97757" text-anchor="start" class="mono" font-weight="700">›</text>
+  <text x="112" y="127" font-size="13" fill="#e9e6df" text-anchor="start" class="body">No me carga la lista de pedidos y ya no sé qué hacer.</text>
+  <rect x="72" y="179" width="513" height="379" rx="10" fill="#262624" stroke="#e5484d" stroke-opacity="0.4" stroke-width="1"/>
+  <path d="M72 215 V189 a10 10 0 0 1 10 -10 H575 a10 10 0 0 1 10 10 V215 Z" fill="#241b1a"/>
+  <line x1="72" y1="215" x2="585" y2="215" stroke="#37352f" stroke-width="1"/>
+  <circle cx="92" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="107" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="122" cy="197" r="4" fill="#4a4741"/>
+  <text x="569" y="201" font-size="12" fill="#e5484d" text-anchor="end" class="mono" font-weight="700">SIN feynman-technique</text>
+  <text x="94" y="254" font-size="13" fill="#9a968d" text-anchor="start" class="body">El fallo es de CORS: política de mismo origen.</text>
+  <text x="94" y="277" font-size="13" fill="#9a968d" text-anchor="start" class="body">El navegador hace una solicitud de verificación previa.</text>
+  <text x="94" y="300" font-size="13" fill="#9a968d" text-anchor="start" class="body">La respuesta no incluye Access-Control-Allow-Origin.</text>
+  <text x="94" y="323" font-size="13" fill="#9a968d" text-anchor="start" class="body">Por eso el navegador descarta la respuesta.</text>
+  <text x="94" y="346" font-size="13" fill="#9a968d" text-anchor="start" class="body">Propongo añadir un middleware de CORS en la API.</text>
+  <text x="94" y="369" font-size="13" fill="#9a968d" text-anchor="start" class="body">Ahí configuro el origen permitido y los métodos.</text>
+  <text x="94" y="507" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">¿Añado el middleware de CORS con el origen permitido?</text>
+  <text x="94" y="534" font-size="13" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="114" y="534" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Sí</text>
+  <text x="148" y="534" font-size="13" fill="#5b5850" text-anchor="start" class="body">No</text>
+  <rect x="615" y="179" width="513" height="379" rx="10" fill="#262624" stroke="#4cc38a" stroke-opacity="0.55" stroke-width="1"/>
+  <path d="M615 215 V189 a10 10 0 0 1 10 -10 H1118 a10 10 0 0 1 10 10 V215 Z" fill="#1a241e"/>
+  <line x1="615" y1="215" x2="1128" y2="215" stroke="#37352f" stroke-width="1"/>
+  <circle cx="635" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="650" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="665" cy="197" r="4" fill="#4a4741"/>
+  <text x="1112" y="201" font-size="12" fill="#4cc38a" text-anchor="end" class="mono" font-weight="700">CON feynman-technique</text>
+  <text x="637" y="254" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Tu código no falló. Lo bloqueó el navegador.</text>
+  <text x="637" y="277" font-size="13" fill="#e9e6df" text-anchor="start" class="body">La petición salió y la respuesta llegó de vuelta.</text>
+  <text x="637" y="300" font-size="13" fill="#e9e6df" text-anchor="start" class="body">El navegador la recibió y no te la entregó.</text>
+  <text x="637" y="323" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Puede que estés logueado en ese otro servidor.</text>
+  <text x="637" y="346" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Sin esa regla, cualquier pestaña leería tus datos.</text>
+  <text x="637" y="369" font-size="13" fill="#e9e6df" text-anchor="start" class="body">El otro servidor tiene que nombrar tu dominio.</text>
+  <text x="637" y="392" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Nunca lo nombró, así que el navegador corta.</text>
+  <text x="637" y="415" font-size="13" fill="#e9e6df" text-anchor="start" class="body">En Postman funciona. En curl también. Aquí no.</text>
+  <text x="637" y="438" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Postman no protege a nadie. El navegador sí: a ti.</text>
+  <text x="637" y="461" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Voy a hacer que el servidor nombre tu dominio.</text>
+  <text x="637" y="507" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">¿Le digo al servidor que tu dominio es bienvenido?</text>
+  <text x="637" y="534" font-size="13" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="657" y="534" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Sí</text>
+  <text x="691" y="534" font-size="13" fill="#5b5850" text-anchor="start" class="body">No</text>
+  <text x="72" y="602" font-size="13" fill="#5b5850" text-anchor="start" class="body" font-style="italic">“There is a difference between the name of the thing and what goes on.”</text>
+  <text x="1128" y="602" font-size="13" fill="#5b5850" text-anchor="end" class="body">R. P. Feynman, 1966</text>
+</svg>

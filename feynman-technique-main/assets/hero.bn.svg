@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 618" width="1200" height="618" role="img" aria-label="feynman-technique — feynman-technique বন্ধ: এটা same-origin policy-জনিত CORS ত্রুটি। browser আগে preflight OPTIONS পাঠাচ্ছে। response-এ Access-Control-Allow-Origin নেই। তাই response body-টা browser block করেছে। API-র allowed origins-এ আপনার origin নেই। server-এ CORS middleware যোগ করে দিচ্ছি। middleware-এ CORS header config যোগ করব? — feynman-technique চালু: আপনার কোড ফেল করেনি, browser-ই থামিয়ে দিয়েছে। request গেছে, উত্তরও ফিরেছে, browser আপনাকে দেয়নি। আপনি হয়তো ওখানে আগে থেকেই ঢুকে আছেন। নিয়মটা না থাকলে যে কেউ আপনার login-এর ভেতরটা পড়ত। ওই server-কে বলতে হয় আপনার origin চলবে। সে কথাটা কখনো বলেনি, তাই আটকে গেছে। একই request Postman-এ চলে, browser-এ আটকায়। Postman কাউকে বাঁচাচ্ছে না, browser আপনাকে বাঁচাচ্ছে। সেই কথাটাই আমি ওই server-এ লিখে দেব। ওই server-এ আপনার origin-কে অনুমতি দিয়ে দিই?">
+  <defs>
+    <style>
+      .body { font-family: "Noto Sans Bengali", "Nirmala UI", "Kohinoor Bangla", Vrinda, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="618" fill="#171614"/>
+  <text x="72" y="46" font-size="19" fill="#e9e6df" text-anchor="start" class="body" font-weight="700">ফাইনম্যান টেকনিক</text>
+  <text x="1128" y="46" font-size="12" fill="#5b5850" text-anchor="end" class="mono" letter-spacing="3.2">একটি Agent Skill</text>
+  <line x1="72" y1="70" x2="1128" y2="70" stroke="#2a2823" stroke-width="1"/>
+  <rect x="72" y="92" width="1056" height="62" rx="10" fill="#262624" stroke="#37352f" stroke-width="1"/>
+  <text x="94" y="126" font-size="14" fill="#d97757" text-anchor="start" class="mono" font-weight="700">›</text>
+  <text x="112" y="126" font-size="12" fill="#e9e6df" text-anchor="start" class="body">চেকআউট পেজে অর্ডারগুলো কিছুতেই আসছে না।</text>
+  <rect x="72" y="180" width="513" height="368" rx="10" fill="#262624" stroke="#e5484d" stroke-opacity="0.4" stroke-width="1"/>
+  <path d="M72 216 V190 a10 10 0 0 1 10 -10 H575 a10 10 0 0 1 10 10 V216 Z" fill="#241b1a"/>
+  <line x1="72" y1="216" x2="585" y2="216" stroke="#37352f" stroke-width="1"/>
+  <circle cx="92" cy="198" r="4" fill="#4a4741"/>
+  <circle cx="107" cy="198" r="4" fill="#4a4741"/>
+  <circle cx="122" cy="198" r="4" fill="#4a4741"/>
+  <text x="569" y="202" font-size="12" fill="#e5484d" text-anchor="end" class="mono" font-weight="700">feynman-technique বন্ধ</text>
+  <text x="94" y="254" font-size="12" fill="#9a968d" text-anchor="start" class="body">এটা same-origin policy-জনিত CORS ত্রুটি।</text>
+  <text x="94" y="278" font-size="12" fill="#9a968d" text-anchor="start" class="body">browser আগে preflight OPTIONS পাঠাচ্ছে।</text>
+  <text x="94" y="302" font-size="12" fill="#9a968d" text-anchor="start" class="body">response-এ Access-Control-Allow-Origin নেই।</text>
+  <text x="94" y="326" font-size="12" fill="#9a968d" text-anchor="start" class="body">তাই response body-টা browser block করেছে।</text>
+  <text x="94" y="350" font-size="12" fill="#9a968d" text-anchor="start" class="body">API-র allowed origins-এ আপনার origin নেই।</text>
+  <text x="94" y="374" font-size="12" fill="#9a968d" text-anchor="start" class="body">server-এ CORS middleware যোগ করে দিচ্ছি।</text>
+  <text x="94" y="494" font-size="12" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">middleware-এ CORS header config যোগ করব?</text>
+  <text x="94" y="522" font-size="12" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="114" y="522" font-size="12" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">হ্যাঁ</text>
+  <text x="175" y="522" font-size="12" fill="#5b5850" text-anchor="start" class="body">না</text>
+  <rect x="615" y="180" width="513" height="368" rx="10" fill="#262624" stroke="#4cc38a" stroke-opacity="0.55" stroke-width="1"/>
+  <path d="M615 216 V190 a10 10 0 0 1 10 -10 H1118 a10 10 0 0 1 10 10 V216 Z" fill="#1a241e"/>
+  <line x1="615" y1="216" x2="1128" y2="216" stroke="#37352f" stroke-width="1"/>
+  <circle cx="635" cy="198" r="4" fill="#4a4741"/>
+  <circle cx="650" cy="198" r="4" fill="#4a4741"/>
+  <circle cx="665" cy="198" r="4" fill="#4a4741"/>
+  <text x="1112" y="202" font-size="12" fill="#4cc38a" text-anchor="end" class="mono" font-weight="700">feynman-technique চালু</text>
+  <text x="637" y="254" font-size="12" fill="#e9e6df" text-anchor="start" class="body">আপনার কোড ফেল করেনি, browser-ই থামিয়ে দিয়েছে।</text>
+  <text x="637" y="278" font-size="12" fill="#e9e6df" text-anchor="start" class="body">request গেছে, উত্তরও ফিরেছে, browser আপনাকে দেয়নি।</text>
+  <text x="637" y="302" font-size="12" fill="#e9e6df" text-anchor="start" class="body">আপনি হয়তো ওখানে আগে থেকেই ঢুকে আছেন।</text>
+  <text x="637" y="326" font-size="12" fill="#e9e6df" text-anchor="start" class="body">নিয়মটা না থাকলে যে কেউ আপনার login-এর ভেতরটা পড়ত।</text>
+  <text x="637" y="350" font-size="12" fill="#e9e6df" text-anchor="start" class="body">ওই server-কে বলতে হয় আপনার origin চলবে।</text>
+  <text x="637" y="374" font-size="12" fill="#e9e6df" text-anchor="start" class="body">সে কথাটা কখনো বলেনি, তাই আটকে গেছে।</text>
+  <text x="637" y="398" font-size="12" fill="#e9e6df" text-anchor="start" class="body">একই request Postman-এ চলে, browser-এ আটকায়।</text>
+  <text x="637" y="422" font-size="12" fill="#e9e6df" text-anchor="start" class="body">Postman কাউকে বাঁচাচ্ছে না, browser আপনাকে বাঁচাচ্ছে।</text>
+  <text x="637" y="446" font-size="12" fill="#e9e6df" text-anchor="start" class="body">সেই কথাটাই আমি ওই server-এ লিখে দেব।</text>
+  <text x="637" y="494" font-size="12" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">ওই server-এ আপনার origin-কে অনুমতি দিয়ে দিই?</text>
+  <text x="637" y="522" font-size="12" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="657" y="522" font-size="12" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">হ্যাঁ</text>
+  <text x="718" y="522" font-size="12" fill="#5b5850" text-anchor="start" class="body">না</text>
+  <text x="72" y="592" font-size="13" fill="#5b5850" text-anchor="start" class="body" font-style="italic">“There is a difference between the name of the thing and what goes on.”</text>
+  <text x="1128" y="592" font-size="13" fill="#5b5850" text-anchor="end" class="body">R. P. Feynman, 1966</text>
+</svg>

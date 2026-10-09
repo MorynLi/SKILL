@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628" role="img" aria-label="feynman-technique — SEM feynman-technique: O erro vem da política de mesma origem do navegador. A resposta da API não traz Access-Control-Allow-Origin. A requisição preflight OPTIONS não é respondida. Sem esses cabeçalhos, o fetch é bloqueado no cliente. A correção é liberar a origem no middleware da API. Vou adicionar um middleware de CORS no seu servidor. Posso configurar o middleware de CORS na API? — COM feynman-technique: Seu código não deu erro. Quem bloqueou foi o navegador. A requisição saiu e a resposta voltou inteirinha. O navegador segurou e não entregou para a sua tela. Motivo: você pode estar logado no outro site. Sem isso, qualquer aba leria os seus dados de lá. O outro site precisa liberar o seu endereço. Ele nunca liberou. É só isso que está faltando. No Postman e no curl funciona. No navegador, dá pau. Postman não protege ninguém. O navegador protege você. Vou pôr o seu endereço na lista de liberados da API. Posso colocar o seu site na lista de liberados da API?">
+  <defs>
+    <style>
+      .body { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="628" fill="#171614"/>
+  <text x="72" y="46" font-size="19" fill="#e9e6df" text-anchor="start" class="body" font-weight="700">Técnica de Feynman</text>
+  <text x="1128" y="46" font-size="12" fill="#5b5850" text-anchor="end" class="mono" letter-spacing="3.2">UMA AGENT SKILL</text>
+  <line x1="72" y1="70" x2="1128" y2="70" stroke="#2a2823" stroke-width="1"/>
+  <rect x="72" y="92" width="1056" height="61" rx="10" fill="#262624" stroke="#37352f" stroke-width="1"/>
+  <text x="94" y="127" font-size="15" fill="#d97757" text-anchor="start" class="mono" font-weight="700">›</text>
+  <text x="112" y="127" font-size="13" fill="#e9e6df" text-anchor="start" class="body">minha tela de checkout não carrega os pedidos, dá erro</text>
+  <rect x="72" y="179" width="513" height="379" rx="10" fill="#262624" stroke="#e5484d" stroke-opacity="0.4" stroke-width="1"/>
+  <path d="M72 215 V189 a10 10 0 0 1 10 -10 H575 a10 10 0 0 1 10 10 V215 Z" fill="#241b1a"/>
+  <line x1="72" y1="215" x2="585" y2="215" stroke="#37352f" stroke-width="1"/>
+  <circle cx="92" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="107" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="122" cy="197" r="4" fill="#4a4741"/>
+  <text x="569" y="201" font-size="12" fill="#e5484d" text-anchor="end" class="mono" font-weight="700">SEM feynman-technique</text>
+  <text x="94" y="254" font-size="13" fill="#9a968d" text-anchor="start" class="body">O erro vem da política de mesma origem do navegador.</text>
+  <text x="94" y="277" font-size="13" fill="#9a968d" text-anchor="start" class="body">A resposta da API não traz Access-Control-Allow-Origin.</text>
+  <text x="94" y="300" font-size="13" fill="#9a968d" text-anchor="start" class="body">A requisição preflight OPTIONS não é respondida.</text>
+  <text x="94" y="323" font-size="13" fill="#9a968d" text-anchor="start" class="body">Sem esses cabeçalhos, o fetch é bloqueado no cliente.</text>
+  <text x="94" y="346" font-size="13" fill="#9a968d" text-anchor="start" class="body">A correção é liberar a origem no middleware da API.</text>
+  <text x="94" y="369" font-size="13" fill="#9a968d" text-anchor="start" class="body">Vou adicionar um middleware de CORS no seu servidor.</text>
+  <text x="94" y="507" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Posso configurar o middleware de CORS na API?</text>
+  <text x="94" y="534" font-size="13" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="114" y="534" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Sim</text>
+  <text x="157" y="534" font-size="13" fill="#5b5850" text-anchor="start" class="body">Não</text>
+  <rect x="615" y="179" width="513" height="379" rx="10" fill="#262624" stroke="#4cc38a" stroke-opacity="0.55" stroke-width="1"/>
+  <path d="M615 215 V189 a10 10 0 0 1 10 -10 H1118 a10 10 0 0 1 10 10 V215 Z" fill="#1a241e"/>
+  <line x1="615" y1="215" x2="1128" y2="215" stroke="#37352f" stroke-width="1"/>
+  <circle cx="635" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="650" cy="197" r="4" fill="#4a4741"/>
+  <circle cx="665" cy="197" r="4" fill="#4a4741"/>
+  <text x="1112" y="201" font-size="12" fill="#4cc38a" text-anchor="end" class="mono" font-weight="700">COM feynman-technique</text>
+  <text x="637" y="254" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Seu código não deu erro. Quem bloqueou foi o navegador.</text>
+  <text x="637" y="277" font-size="13" fill="#e9e6df" text-anchor="start" class="body">A requisição saiu e a resposta voltou inteirinha.</text>
+  <text x="637" y="300" font-size="13" fill="#e9e6df" text-anchor="start" class="body">O navegador segurou e não entregou para a sua tela.</text>
+  <text x="637" y="323" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Motivo: você pode estar logado no outro site.</text>
+  <text x="637" y="346" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Sem isso, qualquer aba leria os seus dados de lá.</text>
+  <text x="637" y="369" font-size="13" fill="#e9e6df" text-anchor="start" class="body">O outro site precisa liberar o seu endereço.</text>
+  <text x="637" y="392" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Ele nunca liberou. É só isso que está faltando.</text>
+  <text x="637" y="415" font-size="13" fill="#e9e6df" text-anchor="start" class="body">No Postman e no curl funciona. No navegador, dá pau.</text>
+  <text x="637" y="438" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Postman não protege ninguém. O navegador protege você.</text>
+  <text x="637" y="461" font-size="13" fill="#e9e6df" text-anchor="start" class="body">Vou pôr o seu endereço na lista de liberados da API.</text>
+  <text x="637" y="507" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Posso colocar o seu site na lista de liberados da API?</text>
+  <text x="637" y="534" font-size="13" fill="#d97757" text-anchor="start" class="mono">❯</text>
+  <text x="657" y="534" font-size="13" fill="#e9e6df" text-anchor="start" class="body" font-weight="600">Sim</text>
+  <text x="700" y="534" font-size="13" fill="#5b5850" text-anchor="start" class="body">Não</text>
+  <text x="72" y="602" font-size="13" fill="#5b5850" text-anchor="start" class="body" font-style="italic">“There is a difference between the name of the thing and what goes on.”</text>
+  <text x="1128" y="602" font-size="13" fill="#5b5850" text-anchor="end" class="body">R. P. Feynman, 1966</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 656" width="1200" height="656" role="img" aria-label="feynman-technique — بلا feynman-technique: يفشل الطلب بسبب سياسة المصدر نفسه (CORS). يُرسل المتصفّح طلبًا مبدئيًا من نوع OPTIONS. ولا يردّ الخادم بترويسة الاستجابة المطلوبة. والترويسة هي Access-Control-Allow-Origin. فيُسقط المتصفّح الاستجابة قبل وصولها للصفحة. أقترح إضافة وسيط (middleware) لمعالجة CORS. وضبطه ليضيف الترويسة إلى كل استجابة. هل أضيف middleware الـCORS وأضبط الترويسة؟ — مع feynman-technique: لم تفشل شيفرتك، بل المتصفّح هو من أوقفها. خرج الطلب، وردّ الموقع، فحجب المتصفّح ردّه عنك. فبقيت الصفحة فارغة رغم وصول البيانات. فقد تكون مسجّلًا هناك بحسابك، ولولا المنع لقرأ بياناتك أي تبويب مفتوح. وكان على الموقع أن يذكر عنوانك في ردّه، ولم يفعل. ينجح الطلب نفسه في Postman، ويفشل في المتصفّح. فـPostman لا يحمي أحدًا، أما المتصفّح فيحميك أنت. أقترح تعديل الخادم ليعلن أنّ عنوانك مسموح. فيسمح المتصفّح عندها بتسليم الردّ لصفحتك. هل أجعل الموقع يذكر عنوانك في ردّه؟">
+  <defs>
+    <style>
+      .body { font-family: "Noto Sans Arabic", "Geeza Pro", "Segoe UI", Tahoma, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="656" fill="#171614"/>
+  <text x="1128" y="46" font-size="19" fill="#e9e6df" text-anchor="start" class="body" font-weight="700" direction="rtl">طريقة فاينمان</text>
+  <text x="72" y="46" font-size="12" fill="#5b5850" text-anchor="start" class="mono" letter-spacing="3.2">مهارة Agent Skill</text>
+  <line x1="72" y1="70" x2="1128" y2="70" stroke="#2a2823" stroke-width="1"/>
+  <rect x="72" y="92" width="1056" height="63" rx="10" fill="#262624" stroke="#37352f" stroke-width="1"/>
+  <text x="1106" y="128" font-size="16" fill="#d97757" text-anchor="end" class="mono" font-weight="700">›</text>
+  <text x="1088" y="128" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">صفحة الدفع لا تعرض أي طلب، وجرّبت كل شيء!</text>
+  <rect x="615" y="181" width="513" height="405" rx="10" fill="#262624" stroke="#e5484d" stroke-opacity="0.4" stroke-width="1"/>
+  <path d="M615 217 V191 a10 10 0 0 1 10 -10 H1118 a10 10 0 0 1 10 10 V217 Z" fill="#241b1a"/>
+  <line x1="615" y1="217" x2="1128" y2="217" stroke="#37352f" stroke-width="1"/>
+  <circle cx="635" cy="199" r="4" fill="#4a4741"/>
+  <circle cx="650" cy="199" r="4" fill="#4a4741"/>
+  <circle cx="665" cy="199" r="4" fill="#4a4741"/>
+  <text x="1112" y="203" font-size="12" fill="#e5484d" text-anchor="start" class="body" font-weight="700" direction="rtl">بلا feynman-technique</text>
+  <text x="1106" y="257" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">يفشل الطلب بسبب سياسة المصدر نفسه (CORS).</text>
+  <text x="1106" y="282" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">يُرسل المتصفّح طلبًا مبدئيًا من نوع OPTIONS.</text>
+  <text x="1106" y="307" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">ولا يردّ الخادم بترويسة الاستجابة المطلوبة.</text>
+  <text x="1106" y="332" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">والترويسة هي Access-Control-Allow-Origin.</text>
+  <text x="1106" y="357" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">فيُسقط المتصفّح الاستجابة قبل وصولها للصفحة.</text>
+  <text x="1106" y="382" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">أقترح إضافة وسيط (middleware) لمعالجة CORS.</text>
+  <text x="1106" y="407" font-size="14" fill="#9a968d" text-anchor="start" class="body" direction="rtl">وضبطه ليضيف الترويسة إلى كل استجابة.</text>
+  <text x="1106" y="532" font-size="14" fill="#e9e6df" text-anchor="start" class="body" font-weight="600" direction="rtl">هل أضيف middleware الـCORS وأضبط الترويسة؟</text>
+  <text x="1106" y="561" font-size="14" fill="#d97757" text-anchor="end" class="mono">❯</text>
+  <text x="1086" y="561" font-size="14" fill="#e9e6df" text-anchor="start" class="body" font-weight="600" direction="rtl">نعم</text>
+  <text x="1043" y="561" font-size="14" fill="#5b5850" text-anchor="start" class="body" direction="rtl">لا</text>
+  <rect x="72" y="181" width="513" height="405" rx="10" fill="#262624" stroke="#4cc38a" stroke-opacity="0.55" stroke-width="1"/>
+  <path d="M72 217 V191 a10 10 0 0 1 10 -10 H575 a10 10 0 0 1 10 10 V217 Z" fill="#1a241e"/>
+  <line x1="72" y1="217" x2="585" y2="217" stroke="#37352f" stroke-width="1"/>
+  <circle cx="92" cy="199" r="4" fill="#4a4741"/>
+  <circle cx="107" cy="199" r="4" fill="#4a4741"/>
+  <circle cx="122" cy="199" r="4" fill="#4a4741"/>
+  <text x="569" y="203" font-size="12" fill="#4cc38a" text-anchor="start" class="body" font-weight="700" direction="rtl">مع feynman-technique</text>
+  <text x="563" y="257" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">لم تفشل شيفرتك، بل المتصفّح هو من أوقفها.</text>
+  <text x="563" y="282" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">خرج الطلب، وردّ الموقع، فحجب المتصفّح ردّه عنك.</text>
+  <text x="563" y="307" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">فبقيت الصفحة فارغة رغم وصول البيانات.</text>
+  <text x="563" y="332" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">فقد تكون مسجّلًا هناك بحسابك،</text>
+  <text x="563" y="357" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">ولولا المنع لقرأ بياناتك أي تبويب مفتوح.</text>
+  <text x="563" y="382" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">وكان على الموقع أن يذكر عنوانك في ردّه، ولم يفعل.</text>
+  <text x="563" y="407" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">ينجح الطلب نفسه في Postman، ويفشل في المتصفّح.</text>
+  <text x="563" y="432" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">فـPostman لا يحمي أحدًا، أما المتصفّح فيحميك أنت.</text>
+  <text x="563" y="457" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">أقترح تعديل الخادم ليعلن أنّ عنوانك مسموح.</text>
+  <text x="563" y="482" font-size="14" fill="#e9e6df" text-anchor="start" class="body" direction="rtl">فيسمح المتصفّح عندها بتسليم الردّ لصفحتك.</text>
+  <text x="563" y="532" font-size="14" fill="#e9e6df" text-anchor="start" class="body" font-weight="600" direction="rtl">هل أجعل الموقع يذكر عنوانك في ردّه؟</text>
+  <text x="563" y="561" font-size="14" fill="#d97757" text-anchor="end" class="mono">❯</text>
+  <text x="543" y="561" font-size="14" fill="#e9e6df" text-anchor="start" class="body" font-weight="600" direction="rtl">نعم</text>
+  <text x="500" y="561" font-size="14" fill="#5b5850" text-anchor="start" class="body" direction="rtl">لا</text>
+  <text x="72" y="630" font-size="13" fill="#5b5850" text-anchor="start" class="body" font-style="italic">“There is a difference between the name of the thing and what goes on.”</text>
+  <text x="1128" y="630" font-size="13" fill="#5b5850" text-anchor="end" class="body">R. P. Feynman, 1966</text>
+</svg>

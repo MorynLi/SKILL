@@ -1,0 +1,47 @@
+{
+  "skill_name": "feynman-learn",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use feynman-learn to help me study Python language features. My goals are interviews and engineering practice. The time budget is 7 days. My current level is that I can write code with AI, but my understanding of language mechanisms is not systematic. First give me the knowledge map and the day-one task.",
+      "expected_output": "Give a knowledge map and 7-day path because the user explicitly requested a plan. Then explain the day-one unit in two layers: an intuition story plus the real mechanism (actual runtime behavior, not renamed terms). The mechanism layer should be precise enough for an engineer preparing for interviews.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I want to learn Context Engineering. I only have 2 hours, and I mainly want to understand its relationship with prompt engineering, RAG, and memory.",
+      "expected_output": "Explain with one familiar story for intuition, then a mechanism layer that states what each of prompt engineering, RAG, and memory actually does to the context window and why they exist. Point out where the analogy breaks down. No roadmap - the user asked for understanding, not a plan.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I wrote a Feynman explanation: social capital means knowing many people, so having more resources gives you a stronger advantage. Help me check where my understanding is inaccurate.",
+      "expected_output": "Identify the single most misleading causal link (network size vs. trust/reciprocity/structural position) and repair it, rather than lecturing broadly. Give a corrected version whose analogy carries the causal logic, and note the boundary where the analogy stops holding.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Use the Feynman technique to teach me backpropagation. First explain it in simple language, then ask me questions, and correct me after I answer.",
+      "expected_output": "Two layers: an intuition story (e.g. tracing blame after a mistake), then the real mechanism - chain rule, gradients flowing backward layer by layer, why the forward pass values must be stored. Explicitly say where the blame analogy fails (blame is discrete and moral; gradients are continuous partial derivatives distributed to every parameter simultaneously). Questions should be natural, not forced.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "I want to learn overfitting.",
+      "expected_output": "Short but two-layered: the memorizing-student story for intuition, then the real mechanism (fitting noise vs. signal, train/validation error divergence, why regularization or early stopping addresses it). Include where the analogy fails: the student knows he is memorizing, the model cannot tell noise from pattern. Short is fine, vague is not. No knowledge map.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "You explained KV cache to me earlier with a library-borrowing analogy and I got the idea. I'm a developer. Now tell me exactly what is stored in the cache and how to estimate its GPU memory usage.",
+      "expected_output": "Go straight to the mechanism layer without repeating or extending the analogy. State that per-layer, per-token Key and Value tensors are stored, give the estimation formula (layers x 2 x tokens x hidden_dim x bytes x batch), and work through one concrete model example with real numbers. Precision should be sufficient for capacity planning. Failure mode to catch: retreating to the story instead of giving exact details.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Explain how HTTPS handshake works, end to end.",
+      "expected_output": "Follow the main line of the handshake with a two-layer treatment: an intuition frame is fine, but each key step must state what existed before, what changed after, and why the step is necessary (e.g. why asymmetric crypto is only used for key exchange). Points that do not fit the story, such as certificate chains, should be explained directly instead of being forced into the analogy or dropped.",
+      "files": []
+    }
+  ]
+}
